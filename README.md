@@ -1,19 +1,32 @@
 # BoxTurtle V1.0
-BoxTurtle Automated Filament Changer (requires AFC-Klipper-Add-On (Alpha))
+BoxTurtle Automated Filament Changer (requires AFC-Klipper-Add-On (Beta))
 
 ![BT_Render](https://github.com/user-attachments/assets/c06e961f-8d1d-41ae-9c80-036669ba2657)
+[![Join me on Discord](https://discord.com/api/guilds/1229586267671629945/widget.png?style=banner2)](https://discord.gg/eT8zc3bvPR)
 
-BoxTurtle is exactly what it appears to be -- an open source AMS style filament changer for [Klipper](https://klipper3d.org) machines. 
+BoxTurtle is exactly what it appears to be — an open source AMS style filament changer for [Klipper](https://klipper3d.org) machines.
+BoxTurtle requires the AFC-Klipper Add-On (found [here](https://github.com/ArmoredTurtle/AFC-Klipper-Add-On)).
 The goal of BoxTurtle is to deliver a user experience as close to an AMS as possible in vanilla Klipper. i.e. an "AMS" for any klipperized printer regardless of form factor but [VORON Design](https://vorondesign.com) printers in particular.
-BoxTurtle requires the use of the AFC-Klipper Add-On (found [here](https://github.com/ArmoredTurtle/AFC-Klipper-Add-On)).
 
 If you appreciate the work we are doing, you can support us [here](https://www.armoredturtle.com/pages/donate).
 
 # How it works
-Box Turtle is a lane-based Automated Filament Changing (AFC) system, referred to as "Type B MMU" by some.
-This means that each "lane" has its own motor responsible for moving filament to and from the tool head. This system uses no selector cart and no servos. Each lane motor syncs with the toolhead once the filament activates a filament sensor (such as [FilaTector](https://github.com/ArmoredTurtle/Filatector)) in (or near) the toolhead.
-In order to cover any discrepancies in rotation distance between the toolhead's extruder and lane motors rotation distance, a toolhead buffer like [Belay by Annex Engineering](https://github.com/Annex-Engineering/Belay) or [TurtleNeck](https://github.com/ArmoredTurtle/TurtleNeck) by ArmoredTurtle is used.
-This is a "bufferless" (no spaghetti boxes) system akin to the AMS. Each lane has its own independant respooler that uses a brushed motor to rewind the spool, and to assist the lane motor in feeding to prevent spools bucking out and/or tangling.
-To enable pwm brushed motor control, BoxTurtle requires a "custom" MCU made by [Isik's Tech @xbst](https://github.com/xbst/AFC-Lite/) called AFC-lite.
-BTT MMB CAN support for BoxTurtle will not be permanent as it is a bandaid solution for testing BoxTurtle on a broader scale more quickly. 
 
+BoxTurtle is an automated, lane-based filament changing system, also known by some as a "Type B MMU." Each lane is equipped with its own dedicated motor that moves filament to and from the tool head independently, eliminating the need for a selector cart or servos. Synchronization between the lane motor and the tool head occurs when the filament triggers a sensor (such as a [FilaTector](https://github.com/ArmoredTurtle/Filatector)) located in or near the tool head.
+
+To accommodate any differences in rotation distance between the extruder in the tool head and the lane motors, BoxTurtle uses a toolhead buffer, such as the [Belay by Annex Engineering](https://github.com/Annex-Engineering/Belay) or the [TurtleNeck](https://github.com/ArmoredTurtle/TurtleNeck) by ArmoredTurtle. This system is "bufferless," meaning no filament boxes (no spaghetti boxes) are required, similar to the AMS. Each lane features an independent respooler equipped with a brushed motor, which helps rewind the spool and assists the lane motor in feeding the filament smoothly. This prevents issues like spool tangling or "bucking."
+
+For precise PWM control of the brushed motors, BoxTurtle relies on a custom MCU, AFC-lite, developed by [Isik's Tech @xbst](https://github.com/xbst/AFC-Lite/)  While the system currently supports BTT MMB CAN, this is a temporary solution to facilitate broader testing and will not be a permanent feature.
+
+# Manual (WIP)
+
+[Will update this as progress is made](https://armoredturtle.xyz)
+
+# Wiring
+
+![BoxTurtle_AFC-Lite_Pinout](https://github.com/user-attachments/assets/134796f6-8458-4a61-9967-1292963d7b4b)
+
+# Slicer configuration
+
+Orca Slicer is the preferred slicer for BoxTurtle use.
+![Screenshot (57)](https://github.com/user-attachments/assets/b0e93466-8c66-42dd-9105-e7e3ecdc08f2)
