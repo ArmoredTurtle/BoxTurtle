@@ -14,7 +14,7 @@ NEMA14 10 Tooth pancake stepper | 4 |  | https://www.aliexpress.us/item/32568048
 AFC-Lite Board | 1 | | https://store.isiks.tech/products/afc-lite
 TMC2209/2226 Drivers | 4 | | https://store.isiks.tech/products/tmc2209-step-sticks
 RGBW LED PCB (WS2812) | 4 | | https://www.aliexpress.us/item/3256801785673787.html
-N20 6v / 500RPM motors | 4 | | https://www.aliexpress.us/item/2251832836005412.html\ https://store.isiks.tech/products/bt-n20-motors |
+N20 6v / 500RPM motors | 4 | | https://www.aliexpress.us/item/3256805684127036.html\ https://store.isiks.tech/products/bt-n20-motors | 
 D2F-L (with Lever) | 4 | |
 D2HW-C201H | 5 | | 
 3010 Axial Fan 5v | 1 | Optional | https://www.aliexpress.us/item/3256802884825067.html
