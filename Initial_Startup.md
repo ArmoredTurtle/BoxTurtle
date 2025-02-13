@@ -63,10 +63,10 @@ The default options for the park, cut, kick, wipe, and tip forming macros can be
 
 After installation, please ensure sure you update the following settings:
 - In ``AFC/AFC_Turtle_1.cfg``:
- - ``canbus_uuid`` if using CANBUS
- - ``serial`` if using USB
+  - ``canbus_uuid`` if using CANBUS
+  - ``serial`` if using USB
 - In ``AFC/AFC_Hardware.cfg``
- - ``pin_tool_start`` and/or ``pin_tool_end``
+  - ``pin_tool_start`` and/or ``pin_tool_end``
 
 For best results, reboot your printer after installing the Add-On and including it in your printer.cfg.  This will ensure all required modules are enabled.
 
