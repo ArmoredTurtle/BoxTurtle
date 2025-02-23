@@ -196,6 +196,8 @@ Adjust the following tip forming variables in ``AFC/AFC.cfg`` for tip forming (i
   - ``cooling_tube_length`` - Length of the cooling move in mm
   - ``cooling_moves`` - number of cooling moves to perform, the default is ``4``.
 
+You can live adjust/test the tip forming without a restart using the [``TEST_AFC_TIP_FORMING``](https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/command_reference.md#test_afc_tip_forming), [``SET_TIP_FORMING``](https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/command_reference.md#set_tip_forming), and [``GET_TIP_FORMING``](https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/command_reference.md#get_tip_forming) commands.
+
 ### Enacting changes
 Perform a ``FIRMWARE_RESTART`` (a full printer reboot is not required) after adjusting all the macro variables in ``AFC/AFC_Macro_Vars.cfg`` file.
 
