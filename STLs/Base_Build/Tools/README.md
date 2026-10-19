@@ -1,3 +1,0 @@
-- PTFE_cutter.stl courtsey of Blamm
-- motor_mount_helper.stl modeled by Tuxedo
-- hub_tool_step1/step2.stl modeled by Johnjrk
