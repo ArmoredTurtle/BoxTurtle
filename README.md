@@ -11,7 +11,7 @@ The goal of BoxTurtle is to deliver a user experience as close to an AMS as poss
 If you appreciate the work we are doing, you can support us [here](https://www.paypal.com/donate/?hosted_button_id=J4WRJBYGFYHLE).
 
 # BoxTurtle sourcing/vendors
-While BoxTurtle can be mostly [self-sourced](https://www.armoredturtle.com), some vendors offer partial or full BoxTurtle kits. Vetted vendors have dedicated vendor channels on the Armored Turtle Discord and are on the [Vendor List](https://www.armoredturtle.com) on the Armored Turtle documentation site.
+While BoxTurtle can be mostly [self-sourced](https://www.armoredturtle.com), some vendors offer partial or full BoxTurtle kits. Vetted vendors have dedicated vendor channels on the Armored Turtle Discord and are on the [Vendor List](https://armoredturtle.org/docs/boxturtle/vendors.html) on the Armored Turtle documentation site.
 
 If you purchase a kit from a vendor not on this list, it has not been validated in any way by the ArmoredTurtle team for either quality or completeness. For best results we recommend using a trusted vendor from the list linked above whenever possible. If you are a vendor and would like to be added to this list, please open a ticket on our Discord to request being added.
 
